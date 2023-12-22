@@ -1,0 +1,15 @@
+Run these commands
+	composer install
+	cp .env.example .env
+	php artisan key:generate
+	php artisan migrate --seed
+	php artisan serve
+
+.....
+
+
+Username
+	admin@admin.com
+
+Password
+	123
